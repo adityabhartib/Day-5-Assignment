@@ -1,6 +1,5 @@
-package com.bridgelabz.basicCoreProgram;
+package com.bridgelabz.BasicCoreProgram;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class VowelConsonant {
