@@ -2,13 +2,13 @@ package com.bridgelabz.FunctionalProgram;
 
 public class SumOfThreeInteger {
     public static void main(String[] args) {
-        int givenArray[] = {1, 2, 3, -3, -4, -5,};
+        int Array[] = {1, 2, 3, -3, -6, -5,};
 
-        for (int i = 0; i < givenArray.length; i++) {
-            for (int j = i + 1; j < givenArray.length; j++) {
-                for (int k = j + 1; k < givenArray.length; k++) {
-                    if (givenArray[i] + givenArray[j] + givenArray[k] == 0) {
-                        System.out.println("Numbers found : " + givenArray[i] + "," + givenArray[j] + " and " + givenArray[k]);
+        for (int i = 0; i < Array.length; i++) {
+            for (int j = i + 1; j < Array.length; j++) {
+                for (int k = j + 1; k < Array.length; k++) {
+                    if (Array[i] + Array[j] + Array[k] == 0) {
+                        System.out.println("Numbers found : " + Array[i] + "," + Array[j] + " and " + Array[k]);
                     }
                 }
             }
