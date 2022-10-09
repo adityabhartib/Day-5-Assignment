@@ -1,11 +1,15 @@
 package com.bridgelabz.FunctionalProgram;
 
+import java.util.Scanner;
+
 public class Distance {
     public static void main(String[] args) {
 
-        // parse x- and y-coordinates from command-line arguments
-        int x = Integer.parseInt(args[0]);
-        int y = Integer.parseInt(args[1]);
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the value of X: ");
+        int x = sc.nextInt();
+        System.out.println("Enter the value of Y");
+        int y = sc.nextInt();
 
         // compute distance to (0, 0)
         double dist = Math.sqrt(x*x + y*y);
