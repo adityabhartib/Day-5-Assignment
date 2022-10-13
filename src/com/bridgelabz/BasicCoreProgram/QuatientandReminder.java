@@ -13,9 +13,9 @@ public class QuatientandReminder {
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("Enter Quatient: ");
+        System.out.println("Enter Divisor: ");
         int quatient=scan.nextInt();
-        System.out.println("Enter Reminder: ");
+        System.out.println("Enter Dividend: ");
         int reminder=scan.nextInt();
         QuatienrReminder(quatient,reminder);
 
